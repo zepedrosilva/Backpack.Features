@@ -23,6 +23,9 @@ platform: Any CPU
 
 configuration: Release
 
+before_build:
+  - nuget restore
+
 build:
   parallel: true
   publish_nuget: true
