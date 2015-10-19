@@ -1,4 +1,4 @@
-version: 0.1.{build}
+version: 0.1.0.{build}
 
 branches:
   only:
@@ -33,9 +33,8 @@ build:
   include_nuget_references: true
   verbosity: minimal
 
-test:
-  assemblies:
-    - Backpack.Features.Tests.dll
+test_script:
+  - ps: .\RunTests.ps1
 
 deploy:
   - provider: NuGet

@@ -2,7 +2,7 @@
 
 Backpack.Features is a simple c# library to support [Feature Toggles](http://http://martinfowler.com/bliki/FeatureToggle.html "Feature Toggle, by Martin Fowler").
 
-[![Build status](https://ci.appveyor.com/api/projects/status/k5k2xlb4ud5c06vf/branch/master?svg=true)](https://ci.appveyor.com/project/JoseSilva/backpack-features/branch/master)
+[![Build status](https://ci.appveyor.com/api/projects/status/k5k2xlb4ud5c06vf/branch/master)](https://ci.appveyor.com/project/JoseSilva/backpack-features/branch/master)
 
 ## Usage
 
